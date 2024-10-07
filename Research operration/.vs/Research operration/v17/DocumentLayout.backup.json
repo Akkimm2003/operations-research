@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Git\\operations-research\\Research operration\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{382D7B0C-E16F-4D76-AA3F-B4A3AFE6F4C8}|Lab_1\\Lab_1.csproj|d:\\git\\operations-research\\research operration\\lab_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{382D7B0C-E16F-4D76-AA3F-B4A3AFE6F4C8}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{382D7B0C-E16F-4D76-AA3F-B4A3AFE6F4C8}|Lab_1\\Lab_1.csproj|d:\\git\\operations-research\\research operration\\lab_1\\simplexmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{382D7B0C-E16F-4D76-AA3F-B4A3AFE6F4C8}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\simplexmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SimplexMethod.cs",
+              "DocumentMoniker": "D:\\Git\\operations-research\\Research operration\\Lab_1\\SimplexMethod.cs",
+              "RelativeDocumentMoniker": "Lab_1\\SimplexMethod.cs",
+              "ToolTip": "D:\\Git\\operations-research\\Research operration\\Lab_1\\SimplexMethod.cs",
+              "RelativeToolTip": "Lab_1\\SimplexMethod.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAuwJcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T10:08:30.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Git\\operations-research\\Research operration\\Lab_1\\Program.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Program.cs",
+              "ToolTip": "D:\\Git\\operations-research\\Research operration\\Lab_1\\Program.cs",
+              "RelativeToolTip": "Lab_1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T10:07:54.236Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
