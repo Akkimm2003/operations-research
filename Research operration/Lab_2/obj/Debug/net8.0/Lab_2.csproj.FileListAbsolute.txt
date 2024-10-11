@@ -1,0 +1,15 @@
+D:\Git\operations-research\Research operration\Lab_2\bin\Debug\net8.0\Lab_2.exe
+D:\Git\operations-research\Research operration\Lab_2\bin\Debug\net8.0\Lab_2.deps.json
+D:\Git\operations-research\Research operration\Lab_2\bin\Debug\net8.0\Lab_2.runtimeconfig.json
+D:\Git\operations-research\Research operration\Lab_2\bin\Debug\net8.0\Lab_2.dll
+D:\Git\operations-research\Research operration\Lab_2\bin\Debug\net8.0\Lab_2.pdb
+D:\Git\operations-research\Research operration\Lab_2\obj\Debug\net8.0\Lab_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\operations-research\Research operration\Lab_2\obj\Debug\net8.0\Lab_2.AssemblyInfoInputs.cache
+D:\Git\operations-research\Research operration\Lab_2\obj\Debug\net8.0\Lab_2.AssemblyInfo.cs
+D:\Git\operations-research\Research operration\Lab_2\obj\Debug\net8.0\Lab_2.csproj.CoreCompileInputs.cache
+D:\Git\operations-research\Research operration\Lab_2\obj\Debug\net8.0\Lab_2.sourcelink.json
+D:\Git\operations-research\Research operration\Lab_2\obj\Debug\net8.0\Lab_2.dll
+D:\Git\operations-research\Research operration\Lab_2\obj\Debug\net8.0\refint\Lab_2.dll
+D:\Git\operations-research\Research operration\Lab_2\obj\Debug\net8.0\Lab_2.pdb
+D:\Git\operations-research\Research operration\Lab_2\obj\Debug\net8.0\Lab_2.genruntimeconfig.cache
+D:\Git\operations-research\Research operration\Lab_2\obj\Debug\net8.0\ref\Lab_2.dll
