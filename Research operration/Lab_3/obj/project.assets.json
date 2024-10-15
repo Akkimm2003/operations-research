@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Lab_1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Lab_1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lab_1.dll": {}
+        }
+      },
+      "Lab_2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Lab_2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lab_2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab_1/1.0.0": {
+      "type": "project",
+      "path": "../Lab_1/Lab_1.csproj",
+      "msbuildProject": "../Lab_1/Lab_1.csproj"
+    },
+    "Lab_2/1.0.0": {
+      "type": "project",
+      "path": "../Lab_2/Lab_2.csproj",
+      "msbuildProject": "../Lab_2/Lab_2.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Lab_1 >= 1.0.0",
+      "Lab_2 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\user\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Git\\operations-research\\Research operration\\Lab_3\\Lab_3.csproj",
+      "projectName": "Lab_3",
+      "projectPath": "D:\\Git\\operations-research\\Research operration\\Lab_3\\Lab_3.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "D:\\Git\\operations-research\\Research operration\\Lab_3\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\Git\\operations-research\\Research operration\\Lab_1\\Lab_1.csproj": {
+              "projectPath": "D:\\Git\\operations-research\\Research operration\\Lab_1\\Lab_1.csproj"
+            },
+            "D:\\Git\\operations-research\\Research operration\\Lab_2\\Lab_2.csproj": {
+              "projectPath": "D:\\Git\\operations-research\\Research operration\\Lab_2\\Lab_2.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

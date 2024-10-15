@@ -139,6 +139,7 @@ namespace Lab_2
 
         public void PrintTable()
         {
+            Console.WriteLine("\n");
             for (int i = 0; i < numRows; i++)
             {
                 for (int j = 0; j < numCols; j++)
