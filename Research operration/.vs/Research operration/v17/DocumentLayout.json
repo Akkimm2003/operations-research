@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "D:\\Git\\operations-research\\Research operration\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85E1F9BC-C135-4D6E-887F-DA94BEC67D17}|Lab_2\\Lab_2.csproj|d:\\git\\operations-research\\research operration\\lab_2\\dualsimplexmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85E1F9BC-C135-4D6E-887F-DA94BEC67D17}|Lab_2\\Lab_2.csproj|solutionrelative:lab_2\\dualsimplexmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D42EC2D-17C8-4B31-ADB4-460C5739714F}|Lab_5\\Lab_5.csproj|d:\\git\\operations-research\\research operration\\lab_5\\differentialrentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D42EC2D-17C8-4B31-ADB4-460C5739714F}|Lab_5\\Lab_5.csproj|solutionrelative:lab_5\\differentialrentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D42EC2D-17C8-4B31-ADB4-460C5739714F}|Lab_5\\Lab_5.csproj|d:\\git\\operations-research\\research operration\\lab_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D42EC2D-17C8-4B31-ADB4-460C5739714F}|Lab_5\\Lab_5.csproj|solutionrelative:lab_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{553E0E16-91BD-4E9D-B2FF-621839CE2386}|Lab_4\\Lab_4.csproj|d:\\git\\operations-research\\research operration\\lab_4\\potentialmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{553E0E16-91BD-4E9D-B2FF-621839CE2386}|Lab_4\\Lab_4.csproj|solutionrelative:lab_4\\potentialmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{553E0E16-91BD-4E9D-B2FF-621839CE2386}|Lab_4\\Lab_4.csproj|d:\\git\\operations-research\\research operration\\lab_4\\northwestangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{553E0E16-91BD-4E9D-B2FF-621839CE2386}|Lab_4\\Lab_4.csproj|solutionrelative:lab_4\\northwestangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{553E0E16-91BD-4E9D-B2FF-621839CE2386}|Lab_4\\Lab_4.csproj|d:\\git\\operations-research\\research operration\\lab_4\\minimalelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{553E0E16-91BD-4E9D-B2FF-621839CE2386}|Lab_4\\Lab_4.csproj|solutionrelative:lab_4\\minimalelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{553E0E16-91BD-4E9D-B2FF-621839CE2386}|Lab_4\\Lab_4.csproj|d:\\git\\operations-research\\research operration\\lab_4\\feugelsheuristic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{553E0E16-91BD-4E9D-B2FF-621839CE2386}|Lab_4\\Lab_4.csproj|solutionrelative:lab_4\\feugelsheuristic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F07F775-8AFC-403F-997F-E33B93DC729E}|Lab_3\\Lab_3.csproj|d:\\git\\operations-research\\research operration\\lab_3\\integersimplexmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F07F775-8AFC-403F-997F-E33B93DC729E}|Lab_3\\Lab_3.csproj|solutionrelative:lab_3\\integersimplexmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{553E0E16-91BD-4E9D-B2FF-621839CE2386}|Lab_4\\Lab_4.csproj|d:\\git\\operations-research\\research operration\\lab_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{553E0E16-91BD-4E9D-B2FF-621839CE2386}|Lab_4\\Lab_4.csproj|solutionrelative:lab_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85E1F9BC-C135-4D6E-887F-DA94BEC67D17}|Lab_2\\Lab_2.csproj|d:\\git\\operations-research\\research operration\\lab_2\\dualsimplexmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85E1F9BC-C135-4D6E-887F-DA94BEC67D17}|Lab_2\\Lab_2.csproj|solutionrelative:lab_2\\dualsimplexmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F07F775-8AFC-403F-997F-E33B93DC729E}|Lab_3\\Lab_3.csproj|d:\\git\\operations-research\\research operration\\lab_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +62,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DifferentialRentMethod.cs",
+              "DocumentMoniker": "D:\\Git\\operations-research\\Research operration\\Lab_5\\DifferentialRentMethod.cs",
+              "RelativeDocumentMoniker": "Lab_5\\DifferentialRentMethod.cs",
+              "ToolTip": "D:\\Git\\operations-research\\Research operration\\Lab_5\\DifferentialRentMethod.cs",
+              "RelativeToolTip": "Lab_5\\DifferentialRentMethod.cs",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAkwBUBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T21:27:06.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Git\\operations-research\\Research operration\\Lab_5\\Program.cs",
+              "RelativeDocumentMoniker": "Lab_5\\Program.cs",
+              "ToolTip": "D:\\Git\\operations-research\\Research operration\\Lab_5\\Program.cs",
+              "RelativeToolTip": "Lab_5\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T21:26:38.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PotentialMethod.cs",
+              "DocumentMoniker": "D:\\Git\\operations-research\\Research operration\\Lab_4\\PotentialMethod.cs",
+              "RelativeDocumentMoniker": "Lab_4\\PotentialMethod.cs",
+              "ToolTip": "D:\\Git\\operations-research\\Research operration\\Lab_4\\PotentialMethod.cs",
+              "RelativeToolTip": "Lab_4\\PotentialMethod.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAAAswO0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T21:25:45.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NorthwestAngle.cs",
+              "DocumentMoniker": "D:\\Git\\operations-research\\Research operration\\Lab_4\\NorthwestAngle.cs",
+              "RelativeDocumentMoniker": "Lab_4\\NorthwestAngle.cs",
+              "ToolTip": "D:\\Git\\operations-research\\Research operration\\Lab_4\\NorthwestAngle.cs",
+              "RelativeToolTip": "Lab_4\\NorthwestAngle.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAswEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T21:25:12.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MinimalElement.cs",
+              "DocumentMoniker": "D:\\Git\\operations-research\\Research operration\\Lab_4\\MinimalElement.cs",
+              "RelativeDocumentMoniker": "Lab_4\\MinimalElement.cs",
+              "ToolTip": "D:\\Git\\operations-research\\Research operration\\Lab_4\\MinimalElement.cs",
+              "RelativeToolTip": "Lab_4\\MinimalElement.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAswFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T21:24:39.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FeugelsHeuristic.cs",
+              "DocumentMoniker": "D:\\Git\\operations-research\\Research operration\\Lab_4\\FeugelsHeuristic.cs",
+              "RelativeDocumentMoniker": "Lab_4\\FeugelsHeuristic.cs",
+              "ToolTip": "D:\\Git\\operations-research\\Research operration\\Lab_4\\FeugelsHeuristic.cs",
+              "RelativeToolTip": "Lab_4\\FeugelsHeuristic.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAswMEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T21:24:12.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Git\\operations-research\\Research operration\\Lab_4\\Program.cs",
+              "RelativeDocumentMoniker": "Lab_4\\Program.cs",
+              "ToolTip": "D:\\Git\\operations-research\\Research operration\\Lab_4\\Program.cs",
+              "RelativeToolTip": "Lab_4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T21:22:05.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "IntegerSimplexMethod.cs",
               "DocumentMoniker": "D:\\Git\\operations-research\\Research operration\\Lab_3\\IntegerSimplexMethod.cs",
               "RelativeDocumentMoniker": "Lab_3\\IntegerSimplexMethod.cs",
@@ -51,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Git\\operations-research\\Research operration\\Lab_3\\Program.cs",
               "RelativeDocumentMoniker": "Lab_3\\Program.cs",
@@ -63,20 +182,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "DualSimplexMethod.cs",
               "DocumentMoniker": "D:\\Git\\operations-research\\Research operration\\Lab_2\\DualSimplexMethod.cs",
               "RelativeDocumentMoniker": "Lab_2\\DualSimplexMethod.cs",
               "ToolTip": "D:\\Git\\operations-research\\Research operration\\Lab_2\\DualSimplexMethod.cs",
               "RelativeToolTip": "Lab_2\\DualSimplexMethod.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAswI0AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAuwI0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T12:07:16.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Git\\operations-research\\Research operration\\Lab_2\\Program.cs",
               "RelativeDocumentMoniker": "Lab_2\\Program.cs",
@@ -88,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "SimplexMethod.cs",
               "DocumentMoniker": "D:\\Git\\operations-research\\Research operration\\Lab_1\\SimplexMethod.cs",
               "RelativeDocumentMoniker": "Lab_1\\SimplexMethod.cs",
@@ -100,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Git\\operations-research\\Research operration\\Lab_1\\Program.cs",
               "RelativeDocumentMoniker": "Lab_1\\Program.cs",

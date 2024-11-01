@@ -252,3 +252,313 @@ This project depends on the `SimplexMethod` and `DualSimplexMethod` classes, whi
 - Implement branching strategies to create a full Branch-and-Cut algorithm.
 - Optimize cut generation to produce stronger cuts.
 - Add support for mixed-integer programming problems.
+
+
+# Lab4-Lab5(Transportation Problem Solver)
+
+This project implements various methods for solving transportation problems, including basic transportation algorithms and optimization techniques.
+
+## Overview
+
+The project provides implementations of four different methods for solving transportation problems:
+1. Northwest Corner Method (Basic feasible solution)
+2. Minimum Cost Method (Basic feasible solution)
+3. Vogel's Approximation Method (Basic feasible solution)
+4. Potential Method (Optimization)
+
+## Methods Description
+
+### 1. Northwest Corner Method
+- Simple method for finding initial basic feasible solution
+- Starts from the upper-left corner of the transportation table
+- Allocates maximum possible amount based on supply and demand constraints
+- Does not consider transportation costs during initial allocation
+
+### 2. Minimum Cost Method
+- Finds initial basic feasible solution
+- Considers transportation costs during allocation
+- Allocates to the cell with minimum cost first
+- Generally provides better initial solution than Northwest Corner method
+
+### 3. Vogel's Approximation Method (VAM)
+- Advanced method for finding initial basic feasible solution
+- Uses penalty costs in decision making
+- Steps:
+  1. Calculate penalties for each row and column
+  2. Find maximum penalty
+  3. Allocate maximum possible amount to the lowest cost cell
+  4. Repeat until all allocations are made
+
+### 4. Potential Method
+- Optimization method for finding the optimal solution
+- Uses potentials (dual variables) to check optimality
+- Steps:
+  1. Start with initial basic feasible solution
+  2. Calculate potentials for rows (u) and columns (v)
+  3. Check optimality conditions
+  4. If not optimal, improve solution using cycle method
+
+## Usage Example
+
+```csharp
+// Define cost matrix
+int[,] costs = {
+    { 3, 4, 5, 15, 24 },
+    { 19, 2, 22, 4, 13 },
+    { 20, 27, 1, 17, 19 },
+    { 4, 15, 17, 8, 14 }
+};
+
+// Define supply array
+int[] supply = { 25, 25, 10, 30 };
+
+// Define demand array
+int[] demand = { 11, 11, 41, 16, 11 };
+
+// Create solver instance
+NorthwestAngle northwestAngle = new NorthwestAngle();
+northwestAngle.Solve(costs, supply, demand);
+northwestAngle.PrintResult();
+
+// Similarly for other methods:
+MinimalElement minimalElement = new MinimalElement();
+FeugelsHeuristic feugelsHeuristic = new FeugelsHeuristic();
+PotentialMethod potentialMethod = new PotentialMethod();
+```
+
+## Solution Structure
+
+- `NorthwestAngle.cs`: Implementation of Northwest Corner method
+- `MinimalElement.cs`: Implementation of Minimum Cost method
+- `FeugelsHeuristic.cs`: Implementation of Vogel's Approximation Method
+- `PotentialMethod.cs`: Implementation of Potential Method
+- `Program.cs`: Example usage and testing
+
+## Class Descriptions
+
+### NorthwestAngle
+```csharp
+public class NorthwestAngle
+{
+    public void Solve(int[,] costs, in int[] supply, in int[] demand)
+    public void PrintResult()
+    public int[,] GetAllocation()
+    public int GetTotalCost()
+}
+```
+
+### MinimalElement
+```csharp
+public class MinimalElement
+{
+    public void Solve(int[,] costs, in int[] supply, in int[] demand)
+    public void PrintResult()
+    public int[,] GetAllocation()
+    public int GetTotalCost()
+}
+```
+
+### FeugelsHeuristic
+```csharp
+public class FeugelsHeuristic
+{
+    public void Solve(int[,] costs, in int[] supply, in int[] demand)
+    public void PrintResult()
+}
+```
+
+### PotentialMethod
+```csharp
+public class PotentialMethod
+{
+    public void Solve(int[,] costs, in int[] supply, in int[] demand)
+    public void PrintResult()
+}
+```
+
+## Input Requirements
+
+- Cost matrix must be rectangular (m×n)
+- Supply array length must match number of rows in cost matrix
+- Demand array length must match number of columns in cost matrix
+- Sum of supply must equal sum of demand for balanced problems
+
+## Output Format
+
+Each method provides:
+- Distribution matrix showing allocations
+- Total transportation cost
+- Additional method-specific information (e.g., penalties in VAM)
+
+## Performance Considerations
+
+- Northwest Corner Method: Fastest but may give poor initial solution
+- Minimum Cost Method: Better solution quality, moderate speed
+- Vogel's Approximation: Best initial solution, slower than other methods
+- Potential Method: Finds optimal solution, may require multiple iterations
+
+## Error Handling
+
+- Methods assume valid input data
+- No explicit handling of unbalanced problems
+- Array bounds are checked internally
+
+## Future Improvements
+
+- Add support for unbalanced problems
+- Implement degeneracy handling
+- Add solution feasibility checking
+- Implement additional optimization methods
+
+# Transportation Problem Solver using Differential Rent Method
+
+This project implements a solution to the transportation problem using the Differential Rent Method. It's designed to optimize the distribution of goods from multiple suppliers to multiple consumers while minimizing the total transportation cost.
+
+## Problem Description
+
+The transportation problem involves:
+- Multiple suppliers with limited supply capacity
+- Multiple consumers with specific demand requirements
+- Transportation costs between each supplier-consumer pair
+- Goal: Minimize total transportation cost while satisfying all demands
+
+### Example Problem
+
+```csharp
+// Cost matrix (transportation costs from suppliers to consumers)
+int[,] costs = {
+    { 3, 4, 5, 15, 24 },
+    { 19, 2, 22, 4, 13 },
+    { 20, 27, 1, 17, 19 },
+    { 4, 15, 17, 8, 14 }
+};
+
+// Supply capacities for each supplier
+int[] supply = { 25, 25, 10, 30 };
+
+// Demand requirements for each consumer
+int[] demand = { 11, 11, 41, 16, 11 };
+```
+
+## Algorithm Implementation
+
+The solution is implemented in the `DifferentialRentMethod` class, which uses the following key components:
+
+### Main Features
+
+1. **Optimal Distribution Calculation**
+   - Finds minimum transportation costs for each consumer
+   - Allocates supplies based on optimal cost differentials
+   - Handles supply and demand constraints
+
+2. **Iterative Optimization**
+   - Updates transportation costs using rent differentials
+   - Continues until optimal solution is reached
+   - Maintains feasibility throughout the process
+
+### Key Methods
+
+- `Solve(int[,] costs, int[] supply, int[] demand)`: Main method that executes the algorithm
+- `IsOptimal(int[] supply, int[] demand)`: Checks if current solution is optimal
+- `UpdateRents(int[,] costs, bool[] LackAndExcessIsMinus, int[] difference)`: Updates transportation costs
+- `PrintResult()`: Displays the solution and total cost
+
+## Usage
+
+```csharp
+namespace Lab_5 
+{
+    class Program 
+    {
+        static void Main()
+        {
+            // Initialize cost matrix, supply, and demand arrays
+            int[,] costs = { /* ... */ };
+            int[] supply = { /* ... */ };
+            int[] demand = { /* ... */ };
+
+            // Create solver instance and solve
+            DifferentialRentMethod differentialRentMethod = new DifferentialRentMethod();
+            differentialRentMethod.Solve(costs, supply, demand);
+        }
+    }
+}
+```
+
+## Algorithm Steps
+
+1. **Initialization**
+   - Create copies of input arrays
+   - Initialize allocation matrix
+   - Set up tracking for minimum costs
+
+2. **Main Loop**
+   - Find minimum transportation costs in each column
+   - Allocate supplies based on minimum costs
+   - Calculate supply/demand differences
+   - Update transportation costs using rent differentials
+   - Repeat until optimal solution is found
+
+3. **Output**
+   - Display final allocation matrix
+   - Show total transportation cost
+   - Highlight minimum cost routes
+
+## Output Format
+
+The program provides detailed output including:
+- Intermediate calculations showing:
+  - Supply/demand differences
+  - Cost differentials
+  - Current allocations
+- Final solution showing:
+  - Optimal distribution matrix
+  - Total transportation cost
+  - Highlighted minimum cost routes
+
+## Technical Notes
+
+### Time Complexity
+- Worst case: O(m × n × k), where:
+  - m = number of suppliers
+  - n = number of consumers
+  - k = number of iterations until optimality
+
+### Space Complexity
+- O(m × n) for the allocation and cost matrices
+- O(m + n) for supply and demand arrays
+
+### Prerequisites
+- .NET Framework/Core runtime
+- C# development environment
+
+## Code Structure
+
+The solution is organized into the following components:
+```
+Lab_5/
+├── DifferentialRentMethod.cs    # Main algorithm implementation
+└── Program.cs                   # Example usage and entry point
+```
+
+## Future Improvements
+
+Potential enhancements that could be added:
+1. Input validation and error handling
+2. Support for decimal/double cost values
+3. Performance optimizations for large-scale problems
+4. User interface for data input
+5. Export functionality for solutions
+6. Visualization of the transportation network
+
+## Contributing
+
+To contribute to this project:
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Create a pull request
+
+## License
+
+This project is available under the MIT License.

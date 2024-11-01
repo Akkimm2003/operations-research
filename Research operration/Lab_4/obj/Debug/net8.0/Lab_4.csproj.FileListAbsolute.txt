@@ -1,0 +1,15 @@
+D:\Git\operations-research\Research operration\Lab_4\bin\Debug\net8.0\Lab_4.exe
+D:\Git\operations-research\Research operration\Lab_4\bin\Debug\net8.0\Lab_4.deps.json
+D:\Git\operations-research\Research operration\Lab_4\bin\Debug\net8.0\Lab_4.runtimeconfig.json
+D:\Git\operations-research\Research operration\Lab_4\bin\Debug\net8.0\Lab_4.dll
+D:\Git\operations-research\Research operration\Lab_4\bin\Debug\net8.0\Lab_4.pdb
+D:\Git\operations-research\Research operration\Lab_4\obj\Debug\net8.0\Lab_4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\operations-research\Research operration\Lab_4\obj\Debug\net8.0\Lab_4.AssemblyInfoInputs.cache
+D:\Git\operations-research\Research operration\Lab_4\obj\Debug\net8.0\Lab_4.AssemblyInfo.cs
+D:\Git\operations-research\Research operration\Lab_4\obj\Debug\net8.0\Lab_4.csproj.CoreCompileInputs.cache
+D:\Git\operations-research\Research operration\Lab_4\obj\Debug\net8.0\Lab_4.sourcelink.json
+D:\Git\operations-research\Research operration\Lab_4\obj\Debug\net8.0\Lab_4.dll
+D:\Git\operations-research\Research operration\Lab_4\obj\Debug\net8.0\refint\Lab_4.dll
+D:\Git\operations-research\Research operration\Lab_4\obj\Debug\net8.0\Lab_4.pdb
+D:\Git\operations-research\Research operration\Lab_4\obj\Debug\net8.0\Lab_4.genruntimeconfig.cache
+D:\Git\operations-research\Research operration\Lab_4\obj\Debug\net8.0\ref\Lab_4.dll
